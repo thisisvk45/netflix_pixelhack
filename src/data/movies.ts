@@ -13,7 +13,7 @@ export const featuredMovie = {
   id: 1,
   title: "Sacred Games",
   description: "A link in their pasts leads an honest cop to a fugitive gang boss, whose cryptic warning spurs the officer on a quest to save Mumbai from cataclysm.",
-  imageUrl: "/images/Sacred-Games.jpg", // Updated image path
+  imageUrl: "/images/Sacred Games.jpeg", // Updated to .jpeg extension
   category: ["Crime", "Drama", "Thriller"],
   year: 2018,
   language: ["Hindi"],
@@ -414,7 +414,7 @@ export interface Profile {
 export const profiles: Profile[] = [
   {
     id: 1,
-    name: "User 1",
-    imageUrl: "/images/user-profile.jpg", // Assuming there's a user profile image
+    name: "Viks",
+    imageUrl: "/images/V.png", // Updated to .png extension
   }
 ];
