@@ -1,73 +1,91 @@
-# Welcome to your Lovable project
+# Netflix India - Pixel-Perfect Frontend Clone with Mood-Based Discovery  
+**A submission for the Pixel Plus Hackathon 2025**
 
-## Project info
+---
 
-**URL**: https://lovable.dev/projects/428e9916-e478-4c4b-9084-91dfee027a42
+## 🧾 Overview
 
-## How can I edit this code?
+This project is part of my submission for the **Pixel Plus Hackathon 2025**. The goal was to replicate a real-world website with pixel-level precision and enhance it with original, functional features that improve the overall user experience.
 
-There are several ways of editing your application.
+I chose to build a **Netflix India** front-end clone using only **HTML**, **CSS**, and **Vanilla JavaScript** — with **no frameworks, no backend**, and a fully responsive layout.
 
-**Use Lovable**
+The site includes advanced features such as **mood-based recommendations**, **voice input**, **weather-aware suggestions**, and a **simulated co-watch experience**, all built from scratch and fully functional.
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/428e9916-e478-4c4b-9084-91dfee027a42) and start prompting.
+---
 
-Changes made via Lovable will be committed automatically to this repo.
+## 🌐 Live Demo
 
-**Use your preferred IDE**
+**Live Site:** [https://pixelhacknetfl1x.netlify.app](https://pixelhacknetfl1x.netlify.app)
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+**GitHub Repo:** _[add your GitHub repo URL here]_
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## ✅ Key Features
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+### 🎯 Core Experience
+- Pixel-perfect UI based on [Netflix India](https://www.netflix.com/in)
+- Each page is uniquely styled (not reused or duplicated)
+- Fully responsive (mobile, tablet, desktop)
+- Built entirely with **HTML, CSS, and vanilla JS**
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### 🔍 UX Enhancements (All Visible & Functional in Header)
+- **Mood-Based Filtering:** Select moods like Calm, Sad, Romantic, etc. to filter content
+- **Voice + Text Input:** Users can describe how they feel; system returns content suggestions using Web Speech API
+- **Story Vibe Generator:** Filter content by tone, plot twist level, and ending type
+- **Weather-Aware Recommendations:** Simulates local weather and suggests content + snacks (e.g. “Rain in 30 minutes? Grab samosas and start a cozy drama”)
+- **Watch Together (Simulated):** Mock feature with avatars and emoji reactions for shared viewing experience
+- **Save This Mood:** Store mood-based watchlists locally with custom names
+- **Surprise Me Button:** Random mood and show picker with simple animation
+- **Dark/Light Mode Toggle:** Smooth transition + saved preference
 
-# Step 3: Install the necessary dependencies.
-npm i
+---
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+## 📄 Pages Included
 
-**Edit a file directly in GitHub**
+| Page            | Description                                                                 |
+|-----------------|-----------------------------------------------------------------------------|
+| `index.html`    | Landing page with voice/text mood input and weather banner                  |
+| `login.html`    | Login form with basic validation and theme options                          |
+| `signup.html`   | Signup layout with visual distinction                                       |
+| `profiles.html` | Avatar-based profile selection                                              |
+| `browse.html`   | Main dashboard with mood tools and personalized rows                        |
+| `movie.html`    | Detailed movie view + related content                                       |
+| `pricing.html`  | INR-based Netflix plan comparison layout                                    |
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+---
 
-**Use GitHub Codespaces**
+## 📦 Tech Used
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- HTML5  
+- CSS3  
+- JavaScript (ES6 Modules)  
+- Web Speech API (for voice input)  
+- `localStorage` (for theme and playlist persistence)
 
-## What technologies are used for this project?
+---
 
-This project is built with:
+## 📊 Movie Data
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+Movie content is sourced from a local `movies.json` file with 20+ unique entries, each tagged with:
+- Genre
+- Language
+- Mood
+- Tone
+- Twist level
+- Ending type
 
-## How can I deploy this project?
+These tags are used for mood and story-based filtering.
 
-Simply open [Lovable](https://lovable.dev/projects/428e9916-e478-4c4b-9084-91dfee027a42) and click on Share -> Publish.
+---
 
-## Can I connect a custom domain to my Lovable project?
+## 🔐 License & Attribution
 
-Yes, you can!
+This project is built **only for educational and hackathon use**. It is not affiliated with or endorsed by Netflix, Inc. All branding and styling are for demonstration purposes only.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 🙌 Credits
+
+Built by [Your Name]  
+Submitted to **Pixel Plus Hackathon 2025**
