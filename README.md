@@ -5,39 +5,38 @@
 
 ## 🧾 Overview
 
-This project is part of my submission for the **Pixel Plus Hackathon 2025**. The goal was to replicate a real-world website with pixel-level precision and enhance it with original, functional features that improve the overall user experience.
+This project is part of my submission for the **Pixel Plus Hackathon 2025**. The objective was to replicate an existing website with pixel-perfect accuracy and improve it by adding original, functional, and user-focused enhancements.
 
-I chose to build a **Netflix India** front-end clone using only **HTML**, **CSS**, and **Vanilla JavaScript** — with **no frameworks, no backend**, and a fully responsive layout.
+I chose to clone **Netflix India**, building everything from scratch using only **HTML**, **CSS**, and **Vanilla JavaScript**—without any frameworks or backend services.
 
-The site includes advanced features such as **mood-based recommendations**, **voice input**, **weather-aware suggestions**, and a **simulated co-watch experience**, all built from scratch and fully functional.
+The final product includes innovative features like **mood-based recommendations**, **voice input**, **story customization**, **weather-aware prompts**, and a **simulated co-watching experience**, all integrated directly into the site’s header for seamless access.
 
 ---
 
 ## 🌐 Live Demo
 
-**Live Site:** [https://pixelhacknetfl1x.netlify.app](https://pixelhacknetfl1x.netlify.app)
-
-**GitHub Repo:** _[add your GitHub repo URL here]_
+- 🔴 **Live Website:** [https://pixelhacknetfl1x.netlify.app](https://pixelhacknetfl1x.netlify.app)  
+- 📁 **GitHub Repo:** [https://github.com/thisisvk45/netflix_pixelhack](https://github.com/thisisvk45/netflix_pixelhack)
 
 ---
 
 ## ✅ Key Features
 
 ### 🎯 Core Experience
-- Pixel-perfect UI based on [Netflix India](https://www.netflix.com/in)
-- Each page is uniquely styled (not reused or duplicated)
-- Fully responsive (mobile, tablet, desktop)
-- Built entirely with **HTML, CSS, and vanilla JS**
+- Pixel-perfect layout based on [Netflix India](https://www.netflix.com/in)
+- Fully responsive design across mobile, tablet, and desktop
+- All pages are uniquely styled and fully visible
+- Built entirely with **HTML**, **CSS**, and **Vanilla JavaScript**
 
-### 🔍 UX Enhancements (All Visible & Functional in Header)
-- **Mood-Based Filtering:** Select moods like Calm, Sad, Romantic, etc. to filter content
-- **Voice + Text Input:** Users can describe how they feel; system returns content suggestions using Web Speech API
-- **Story Vibe Generator:** Filter content by tone, plot twist level, and ending type
-- **Weather-Aware Recommendations:** Simulates local weather and suggests content + snacks (e.g. “Rain in 30 minutes? Grab samosas and start a cozy drama”)
-- **Watch Together (Simulated):** Mock feature with avatars and emoji reactions for shared viewing experience
-- **Save This Mood:** Store mood-based watchlists locally with custom names
-- **Surprise Me Button:** Random mood and show picker with simple animation
-- **Dark/Light Mode Toggle:** Smooth transition + saved preference
+### 🔍 Emotion-Aware Enhancements (Header Features)
+- **Mood Picker:** Select from moods like Calm, Sad, Romantic, Curious, etc. to filter visible content
+- **Voice + Text Mood Input:** Uses Web Speech API to understand how the user feels and recommends content accordingly
+- **Story Vibe Generator:** Users can define what kind of story they want (tone, twist, ending) and receive matching content
+- **Weather-Aware Suggestions:** Simulates weather (e.g., “Rain in 30 minutes? Order snacks and get ready to binge!”)
+- **Watch Together Simulation:** Mock movie night feature with avatars and reactions
+- **Save This Mood:** Stores custom mood playlists using localStorage
+- **Surprise Me Button:** Random mood and show combo picker with simple animation
+- **Dark/Light Mode Toggle:** Theme switcher with smooth animation and saved preference
 
 ---
 
@@ -45,47 +44,57 @@ The site includes advanced features such as **mood-based recommendations**, **vo
 
 | Page            | Description                                                                 |
 |-----------------|-----------------------------------------------------------------------------|
-| `index.html`    | Landing page with voice/text mood input and weather banner                  |
-| `login.html`    | Login form with basic validation and theme options                          |
-| `signup.html`   | Signup layout with visual distinction                                       |
-| `profiles.html` | Avatar-based profile selection                                              |
-| `browse.html`   | Main dashboard with mood tools and personalized rows                        |
-| `movie.html`    | Detailed movie view + related content                                       |
-| `pricing.html`  | INR-based Netflix plan comparison layout                                    |
+| `index.html`    | Landing page with mood input and weather prompt                             |
+| `login.html`    | Clean login form with JS validation                                          |
+| `signup.html`   | Visual registration form                                                    |
+| `profiles.html` | Avatar-style user profile selector                                          |
+| `browse.html`   | Dashboard with content rows, mood filters, and smart features               |
+| `movie.html`    | Movie details, genres, tags, and related content                            |
+| `pricing.html`  | INR plan comparison, responsive layout                                      |
 
 ---
 
-## 📦 Tech Used
+## 📦 Tech Stack
 
 - HTML5  
 - CSS3  
 - JavaScript (ES6 Modules)  
-- Web Speech API (for voice input)  
-- `localStorage` (for theme and playlist persistence)
+- Web Speech API  
+- `localStorage` for theme and saved mood states  
+- No frameworks, libraries, or backend used
 
 ---
 
 ## 📊 Movie Data
 
-Movie content is sourced from a local `movies.json` file with 20+ unique entries, each tagged with:
-- Genre
-- Language
-- Mood
-- Tone
-- Twist level
-- Ending type
+The app uses a local `movies.json` file with 20+ unique Indian titles.  
+Each entry contains:
 
-These tags are used for mood and story-based filtering.
+- Title  
+- Genre  
+- Mood tags  
+- Tone  
+- Twist level  
+- Ending type  
+- Language  
+- Poster URL  
+
+Used for mood-based filtering and content personalization.
 
 ---
 
-## 🔐 License & Attribution
+## 🔐 License & Disclaimer
 
-This project is built **only for educational and hackathon use**. It is not affiliated with or endorsed by Netflix, Inc. All branding and styling are for demonstration purposes only.
+This project is for educational and hackathon purposes only.  
+It is not affiliated with, endorsed, or sponsored by Netflix, Inc.
+
+All branding is used only for the purpose of replication under fair use.
 
 ---
 
 ## 🙌 Credits
 
-Built by [Your Name]  
-Submitted to **Pixel Plus Hackathon 2025**
+Built by **Vikas Kumar**  
+Submitted for **Pixel Plus Hackathon 2025**  
+GitHub: [@thisisvk45](https://github.com/thisisvk45)
+
