@@ -15,7 +15,7 @@ The final product includes innovative features like **mood-based recommendations
 
 ## 🌐 Live Demo
 
-- 🔴 **Live Website:** [https://pixelhacknetfl1x.netlify.app](https://pixelhacknetfl1x.netlify.app)  
+- 🔴 **Live Website:** [[https://pixelhacknetfl1x.netlify.app](https://pixelhack.netlify.app/)
 - 📁 **GitHub Repo:** [https://github.com/thisisvk45/netflix_pixelhack](https://github.com/thisisvk45/netflix_pixelhack)
 
 ---
